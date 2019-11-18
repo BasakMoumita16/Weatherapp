@@ -14,6 +14,7 @@ const getCity = async cityName => {
   const data = await response.json();
 
   console.log(data);
+  console.log("hello");
 };
 
 getCity("delhi");
