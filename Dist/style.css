@@ -1,11 +1,11 @@
 .container {
  
-    background: green;
+    background: blue;
 }
 
 .main_icon{
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 80px;
     display: block;
 }
