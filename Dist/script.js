@@ -28,6 +28,12 @@ const updateWeather = data => {
       array.push(arr);
     }
   });
+  console.log(array);
+
+  divs.forEach((div, index) => {
+    div.innerHTML = `<h2 class="city_name">DAY</h2>
+    <p class="lead">${Math.floor(array[index].main.temp)}</p>`;
+  });
 };
 
 //const data_array
