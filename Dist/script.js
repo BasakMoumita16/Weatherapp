@@ -21,8 +21,13 @@ const updateWeather = data => {
     <p class=" degress">${Math.floor(daysWeather.list[0].main.temp)}°</p>
  `;
 
-  const data_array = daysWeather.list[0];
-  console.log(data_array);
+  const data_array = daysWeather.list;
+  const array = [];
+  data_array.filter(arr => {
+    if (arr.dt_txt.includes("00:00:00")) {
+      array.push(arr);
+    }
+  });
 };
 
 //const data_array
