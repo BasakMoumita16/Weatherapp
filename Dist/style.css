@@ -1,11 +1,10 @@
 .container {
- 
-    background: blue;
+  background: blue;
 }
 
-.main_icon{
-    height: 100px;
-    width: 100px;
-    border-radius: 80px;
-    display: block;
+.city_img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
 }
