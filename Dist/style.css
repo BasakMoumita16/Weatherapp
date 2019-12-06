@@ -1,10 +1,58 @@
-.container {
-  background: blue;
+
+.container{
+  margin: 50px;
+  padding: 20px 30px 20px 30px;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.city_img {
-  height: 300px;
-  width: 300px;
-  display: block;
-  margin: auto;
+.head{
+  color: rgb(235, 6, 6);
+}
+
+.one{
+  width:100%;
+  height:auto;
+  background: #007bbf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow:wrap ;
+}
+
+.item{
+  width: 20%;
+  height: 50px;
+  background:cyan;
+  margin:30px;
+}
+.item2{
+  width: 20%;
+  height: 50px;
+  background: cyan;
+  margin:30px;
+}
+
+.item3{
+  width: 20%;
+  height: 50px;
+  background: cyan;
+  margin:30px;
+}
+.item4{
+  width: 20%;
+  height: 50px;
+  background: cyan;
+  margin:30px;
+}
+.item5{
+  width: 20%;
+  height: 50px;
+  background: cyan;
+  margin:30px;
+}
+
+body{
+  background-image: url(./image/snow_london_g_hd.jpg);
 }

@@ -19,7 +19,7 @@ const updateWeather = data => {
 <h2 class="city_name">${daysWeather.city.name}</h2>
     <p class="lead">${currentCity.description}</p>
     <p class=" degress">${Math.floor(daysWeather.list[0].main.temp)}°</p>
- `;
+`;
 
   const data_array = daysWeather.list;
   const array = [];
@@ -28,7 +28,15 @@ const updateWeather = data => {
       array.push(arr);
     }
   });
-  console.log(array);
+  const array1 = [];  
+  data_array.filter(arr => {
+    if (arr.dt_txt.includes("2019-11-20") && arr.dt_txt.includes("00:00:00")) {
+      array1 = arr.splice(0,4);
+      array1.push(arr);
+    }
+    
+  });
+ console.log(array1);
 
   divs.forEach((div, index) => {
     div.innerHTML = `<h2 class="city_name">DAY</h2>
@@ -63,6 +71,8 @@ form.addEventListener("submit", e => {
       console.log(data);
     })
     .catch(error => {
-      alert("Could not fecht data " + error);
+      alert("Could not fetcht data " + error);
     });
 });
+
+
