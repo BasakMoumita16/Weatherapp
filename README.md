@@ -13,8 +13,8 @@ five days weather forecast and a flexible search for a user according to their p
 * API
 * Bootstrap
 
-## Link 
-[I'm an inline- style link](https ://www.google.com)
+## Link of our page:
+"http://127.0.0.1:5500/Dist/index.html?city=kanpur"
 
 
 ## Authors 
