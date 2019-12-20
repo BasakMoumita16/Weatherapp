@@ -23,4 +23,5 @@ five days weather forecast and a flexible search for a user according to their p
 
 ## License 
 Thi s Project is an open source and available under the MIT LICENSE.
+<img src = "https://github.com/BasakMoumita16/Weatherapp/blob/master/Capture3.PNG">
 
